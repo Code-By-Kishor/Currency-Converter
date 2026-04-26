@@ -35,7 +35,7 @@ const updateExchangeRate=async  ()=>{
     let finalAmount = amtValue*currRate;
     msg.innerText=`${amtValue} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`
     let newupdateText = data.date;
-    console.log(newupdateText);
+    //console.log(newupdateText);
     lastUpdate.innerText=`lastUpdated on ${newupdateText}`
 
 }
